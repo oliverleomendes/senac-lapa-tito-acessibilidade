@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Senac Lapa Tito - Aula Acessibilidade/Usabilidade</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Menu de navegação">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand" role="heading" tabindex="1" aria-level="1">Senac Lapa Tito</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" tabindex="2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul role="menu" aria-label="Menu" class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item" aria-label="Link Página Inicial">
+                            <a href="#" class="nav-link active" aria-current="page" tabindex="3">Página Inicial</a>
+                        </li>
+
+                        <li class="nav-item" aria-label="Link Página Quem Somos">
+                            <a href="#" class="nav-link" tabindex="4">Quem Somos</a>
+                        </li>   
+                        
+                        <li class="nav-item" aria-label="Link Página Fale Conosco">
+                            <a href="#" class="nav-link" tabindex="5">Fale Conosco</a>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+       <div class="banner" role="banner" aria-label="Banner página inicial">
+           <img role="img" 
+                src="./assets/img/banner-eletronicos.png" 
+                aria-roledescription="Banner com quatro fotos sendo do lado esquerdo uma foto de um celular Samsung e um iPhone, já no lado direito uma foto de um notebook e abaixo um Smartwatch, com um texto centralizado escrito: Semana do Eletrônico, as melhores ofertas e preços que cabem no seu bolso. Em até 12 vezes sem juros." 
+                alt="Banner com quatro fotos sendo do lado esquerdo uma foto de um celular Samsung e um iPhone, já no lado direito uma foto de um notebook e abaixo um Smartwatch, com um texto centralizado escrito: Semana do Eletrônico, as melhores ofertas e preços que cabem no seu bolso. Em até 12 vezes sem juros." 
+                aria-label="Banner com quatro fotos sendo do lado esquerdo uma foto de um celular Samsung e um iPhone, já no lado direito uma foto de um notebook e abaixo um Smartwatch, com um texto centralizado escrito: Semana do Eletrônico, as melhores ofertas e preços que cabem no seu bolso. Em até 12 vezes sem juros."
+                tabindex="6"
+            >
+       </div> 
+
+       <section class="container-fluid">
+           <div class="vitrine py-3">
+               <h5 class="vitrine-titulo" role="heading" aria-label="Mais vendidos" aria-level="5" tabindex="7">Mais Vendidos</h5>
+
+               <div class="row">
+                    <div class="col">
+                        <div class="card" tabindex="8">
+                            <div class="card-body text-center">
+                                <h5 role="heading" aria-label="Nome produto" tabindex="9">
+                                    Nome produto
+                                </h5>
+                                <p role="text" aria-label="Descrição produto" tabindex="10">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p role="text" aria-label="preço 10 reais e 99 centavos" tabindex="11">
+                                    R$ 10,99
+                                </p>
+                                <button role="button" aria-label="Comprar" class="btn btn-success" tabindex="12">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" tabindex="13">
+                            <div class="card-body text-center">
+                                <h5 role="heading" aria-label="Nome produto" tabindex="14">
+                                    Nome produto
+                                </h5>
+                                <p role="text" aria-label="Descrição produto" tabindex="15">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p role="text" aria-label="preço 10 reais e 99 centavos" tabindex="16">
+                                    R$ 10,99
+                                </p>
+                                <button role="button" aria-label="Comprar" class="btn btn-success" tabindex="17">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" tabindex="18">
+                            <div class="card-body text-center">
+                                <h5 role="heading" aria-label="Nome produto" tabindex="19">
+                                    Nome produto
+                                </h5>
+                                <p role="text" aria-label="Descrição produto" tabindex="20">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p role="text" aria-label="preço 10 reais e 99 centavos" tabindex="21">
+                                    R$ 10,99
+                                </p>
+                                <button role="button" aria-label="Comprar" class="btn btn-success" tabindex="22">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" tabindex="23">
+                            <div class="card-body text-center">
+                                <h5 role="heading" aria-label="Nome produto" tabindex="24">
+                                    Nome produto
+                                </h5>
+                                <p role="text" aria-label="Descrição produto" tabindex="25">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p role="text" aria-label="preço 10 reais e 99 centavos" tabindex="26">
+                                    R$ 10,99
+                                </p>
+                                <button role="button" aria-label="Comprar" class="btn btn-success" tabindex="27">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+       </section>
+    </main>
+
+    <footer class="bg-dark text-white py-3">
+        <p class="mb-0" role="text" aria-label="Todos os direitos reservados" tabindex="28">Todos os direitos reservados</p>
+    </footer>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
